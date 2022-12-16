@@ -1,0 +1,57 @@
+/* Fuentes*/
+@font-face {
+    font-family: "nevis";
+    src: url("fonts/nevis.eot");
+    src:url("fonts/nevis.woff"),
+        url("fonts/nevis.svg"),
+        url("fonts/nevis.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/*Estilos Generales*/
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-image: url("../img/paven.png"); /* Patron como fondo*/
+}
+/*Cabecera*/
+header{
+    width:100%;
+    min-width: 1024px;
+    height: 250px;
+    margin:0px auto;
+    
+}
+header h1 a{
+   text-decoration: none;
+   color:#70b231;
+
+}
+header #logotipo{
+    width: 770px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+header #logotipo img{
+    display: block;
+    width: 140px;
+    text-align: center;
+    margin:0px auto;
+}
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color:#70b231;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0px 2px 1px black;
+    font-family: "nevis";
+}
+header h1:hover{
+    text-shadow: 0px 2px 1px black, 0px 0px 6px #70b231; /* sombra*/
+  }
+  
